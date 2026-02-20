@@ -75,7 +75,7 @@ const Header: React.FC<HeaderProps> = ({ t, lang, setLang, isDark, setIsDark, pr
         <div className="p-4 bg-blue-50 dark:bg-blue-900/20 rounded-xl flex flex-col items-center justify-center text-center border border-blue-100 dark:border-blue-800">
           <Calendar className="w-8 h-8 text-brand-start mb-2" />
           <h3 className="font-bold text-gray-800 dark:text-gray-100">{t.eventDates}</h3>
-          <p className="text-gray-600 dark:text-gray-400 text-sm">April 2026 (Coming Soon)</p>
+          <p className="text-gray-600 dark:text-gray-400 text-sm">Coming Soon</p>
         </div>
         <div className="p-4 bg-purple-50 dark:bg-purple-900/20 rounded-xl flex flex-col items-center justify-center text-center border border-purple-100 dark:border-purple-800">
           <MapPin className="w-8 h-8 text-brand-end mb-2" />
